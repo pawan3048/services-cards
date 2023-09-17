@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sercice</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      box-sizing: border-box;
+    }
+    .wrapper {
+      width: 920px;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+    .wrapper .services p {
+      line-height: 25px;
+    }
+
+    h1::after {
+      background-color: orange;
+      content: "";
+      height: 3px;
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+    }
+    .services {
+      width: 700px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .section {
+      width: 280px;
+      float: left;
+      margin: 0 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .section:hover {
+      transform: scale(1.01);
+      box-shadow: rgba(0, 0, 0, 0.2);
+    }
+    img {
+      width: 280px;
+      height: 180px;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      
+      <div class="services">
+        <h1 style="color: red">OUR SERVICES</h1>
+        <p class="p1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+          recusandae praesentium dolorem pariatur doloribusex laborum maxime
+          autem soluta quos dolore asperiores eligendi deleniti hic porro
+          officiis, ratione officia tenetur?
+        </p>
+      </div>
+      <!--services-->
+
+      <div class="section sec1">
+        <img src="img/istockphoto-1125526067-612x612.jpg" />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          reprehenderit pariatur dolorum amet delectus, ab atque eius numquam
+          laborum dignissimos aliquam perspiciatis et dolore ullam doloremque
+          tempora quae, cupiditate earum?
+        </p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="section sec2">
+        <img
+          src="img/istockphoto-586173368-612x612.jpg"
+          class="img"
+          width="300px"
+          alt="construction"
+        />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          reprehenderit pariatur dolorum amet delectus, ab atque eius numquam
+          laborum dignissimos aliquam perspiciatis et dolore ullam doloremque
+          tempora quae, cupiditate earum?
+        </p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="section sec3">
+        <img src="img/istockphoto-1189913209-612x612.jpg" alt="engineergirl" />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
+          reprehenderit pariatur dolorum amet delectus, ab atque eius numquam
+          laborum dignissimos aliquam perspiciatis et dolore ullam doloremque
+          tempora quae, cupiditate earum?
+        </p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <script>
+      var img;
+      img = document.querySelector(".wrapper").style.background ="white";
+      console.log(img);
+    </script>
+  </body>
+</html>
